@@ -3,15 +3,12 @@ using namespace std;
 
 int main()
 {
- //Emad's Code
- int a,b,c;
+	int number = 10;
+	int secondNumber = 20;
+	
+	int result = number + secondNumber;
+	
+	cout << result << endl;
  
- cout << "Enter two numbers: ";
- cin >> a;
- cin >> b;
- 
- c = a + b;
- cout << "Sum is: " << c << endl;
- 
- return 0;
+	return 0;
 }
