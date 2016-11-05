@@ -10,8 +10,8 @@ int main()
  cin >> a;
  cin >> b;
  
- c = a + b;
- cout << "Sum is: " << c << endl;
+ c = a * b;
+ cout << "Product is: " << c << endl;
  
  return 0;
 }
